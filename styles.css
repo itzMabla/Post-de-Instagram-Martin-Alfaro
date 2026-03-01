@@ -1,0 +1,54 @@
+* {box-sizing: border-box;}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eaeaea;
+}
+
+.barrarriba{
+    background: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.barrarriba h1{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.feed{
+    width: 600px;
+    max-width: 95%;
+    margin: 20px auto;
+}
+
+.post{
+    background: white;
+    margin: 20px 0;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.post-header h2{
+    margin: 0;
+    font-size: 18px;
+}
+
+.date  {
+    color: #999;
+    font-size: 14px;
+}
+
+.post-imagen img{
+    width: 100%;
+    display: block;
+}
+
+.post-caption{
+    margin: 0;
+    padding: 12px;
+    font-size: 14px;
+}
